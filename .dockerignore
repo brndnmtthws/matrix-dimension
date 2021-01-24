@@ -1,3 +1,7 @@
+# Ignore the dockerfile and dockerignore, so that changing these does not require a complete rebuild.
+Dockerfile
+.dockerignore
+
 .idea/
 node_modules/
 web-dist/
